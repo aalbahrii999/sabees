@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">سبيس</string>
+    <string name="home_hint">إلى أين؟</string>
+    <string name="address_hint">ابحث أو اكتب عنواناً</string>
+    <string name="secure_on">التصوير مقفل</string>
+    <string name="back">رجوع</string>
+    <string name="forward">تقدم</string>
+    <string name="reload">تحديث</string>
+    <string name="stop">إيقاف</string>
+    <string name="menu">القائمة</string>
+    <string name="bookmark">حفظ علامة</string>
+    <string name="unbookmark">إزالة العلامة</string>
+    <string name="bookmarks">العلامات</string>
+    <string name="history">السجل</string>
+    <string name="new_tab">تبويب جديد</string>
+    <string name="tabs">التبويبات</string>
+    <string name="copy">نسخ العنوان</string>
+    <string name="share">مشاركة</string>
+    <string name="use_desktop">عرض سطح المكتب</string>
+    <string name="use_mobile">عرض الجوال</string>
+    <string name="clear">مسح البيانات</string>
+    <string name="home">الصفحة الأولى</string>
+    <string name="empty_marks">لا علامات بعد</string>
+    <string name="empty_history">السجل فارغ</string>
+    <string name="copied">تم النسخ</string>
+    <string name="download_started">يبدأ التحميل</string>
+    <string name="download_failed">تعذر التحميل</string>
+    <string name="tab_limit">الحد اثنا عشر تبويباً</string>
+    <string name="saved">حُفظت العلامة</string>
+    <string name="removed">أُزيلت العلامة</string>
+    <string name="clear_title">مسح البيانات</string>
+    <string name="clear_body">يمسح السجل وملفات الجلسة على هذا الجهاز. العلامات تبقى.</string>
+    <string name="clear_ok">مسح</string>
+    <string name="cancel">إلغاء</string>
+    <string name="cleared">تم المسح</string>
+    <string name="delete">حذف</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="night">#0E1418</color>
+    <color name="surface">#171E22</color>
+    <color name="surface_2">#212A30</color>
+    <color name="ink">#E7E1D6</color>
+    <color name="muted">#9AA39C</color>
+    <color name="teal">#7EB8B0</color>
+    <color name="line">#2C383E</color>
+</resources>

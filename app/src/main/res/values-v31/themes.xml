@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Space" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="android:statusBarColor">@color/night</item>
+        <item name="android:navigationBarColor">@color/night</item>
+        <item name="android:windowBackground">@color/night</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="colorPrimary">@color/teal</item>
+        <item name="colorOnPrimary">@color/night</item>
+        <item name="colorSurface">@color/night</item>
+        <item name="colorOnSurface">@color/ink</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:windowSplashScreenBackground">@color/night</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/ic_mark</item>
+    </style>
+</resources>
