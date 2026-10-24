@@ -3,7 +3,6 @@
     <string name="app_name">سبيس</string>
     <string name="home_hint">إلى أين؟</string>
     <string name="address_hint">ابحث أو اكتب عنواناً</string>
-    <string name="secure_on">التصوير مقفل</string>
     <string name="back">رجوع</string>
     <string name="forward">تقدم</string>
     <string name="reload">تحديث</string>

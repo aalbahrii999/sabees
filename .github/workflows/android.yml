@@ -43,7 +43,7 @@ jobs:
       - name: Publish
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: v1.0.${{ github.run_number }}
+          tag_name: v1.0.4
           name: سبيس
           make_latest: true
           fail_on_unmatched_files: true
@@ -51,4 +51,4 @@ jobs:
           body: |
             ملف التثبيت لجوال أندرويد.
             اسمه في النظام: سبيس، ويظهر ضمن الألعاب.
-            التصوير وتسجيل الشاشة مقفلان داخل التطبيق.
+            التصوير وتسجيل الشاشة متاحان.

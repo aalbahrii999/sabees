@@ -93,7 +93,6 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES)
         super.onCreate(savedInstanceState)
-        lockCapture()
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
         store = Store(this)
@@ -106,11 +105,6 @@ class MainActivity : AppCompatActivity() {
         wire()
         restore()
         present()
-    }
-
-    override fun onResume() {
-        super.onResume()
-        lockCapture()
     }
 
     override fun onPause() {
@@ -127,13 +121,6 @@ class MainActivity : AppCompatActivity() {
             }
         }
         super.onDestroy()
-    }
-
-    private fun lockCapture() {
-        window.setFlags(
-            android.view.WindowManager.LayoutParams.FLAG_SECURE,
-            android.view.WindowManager.LayoutParams.FLAG_SECURE,
-        )
     }
 
     private fun wire() {
